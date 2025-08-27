@@ -1,0 +1,21 @@
+{
+  "description": "Gfly Studios is a creative agency based in Zambia, specializing in photography, videography, graphic design, branding, and web/app development.",
+  "mission": "To empower brands and individuals by transforming ideas into stunning visual and digital experiences.",
+  "team": [
+    {
+      "name": "Grace Mwansa",
+      "role": "Founder / Creative Director",
+      "image": "/uploads/grace.jpg"
+    },
+    {
+      "name": "John Banda",
+      "role": "Lead Photographer",
+      "image": "/uploads/john.jpg"
+    },
+    {
+      "name": "Alice Phiri",
+      "role": "Lead Designer",
+      "image": "/uploads/alice.jpg"
+    }
+  ]
+}

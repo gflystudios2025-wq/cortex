@@ -1,0 +1,34 @@
+{
+  "services": [
+    {
+      "icon": "/uploads/camera.svg",
+      "title": "Photography",
+      "description": "Professional event, portrait, and commercial photography.",
+      "cta": "Book Now"
+    },
+    {
+      "icon": "/uploads/video.svg",
+      "title": "Videography",
+      "description": "Cinematic videos for events, brands, and ads.",
+      "cta": "Book Now"
+    },
+    {
+      "icon": "/uploads/design.svg",
+      "title": "Graphic Design",
+      "description": "Logo, posters, flyers, social media, and more.",
+      "cta": "Get Design"
+    },
+    {
+      "icon": "/uploads/branding.svg",
+      "title": "Branding",
+      "description": "Brand strategy, identity, and collateral creation.",
+      "cta": "Start Branding"
+    },
+    {
+      "icon": "/uploads/web.svg",
+      "title": "Web/App Development",
+      "description": "Responsive websites & mobile apps for any business.",
+      "cta": "Get a Quote"
+    }
+  ]
+}

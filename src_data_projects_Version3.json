@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "image": "/uploads/photo1.jpg",
+      "title": "Branding for ZedTech",
+      "description": "Complete brand identity for ZedTech, a leading tech startup.",
+      "category": "Branding"
+    },
+    {
+      "image": "/uploads/photo2.jpg",
+      "title": "Wedding Photography",
+      "description": "Capturing memories for Sarah & John’s wedding.",
+      "category": "Photography"
+    },
+    {
+      "image": "/uploads/photo3.jpg",
+      "title": "App UX/UI for EduLearn",
+      "description": "Design and development of educational platform.",
+      "category": "Web/App Development"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "about"
+    label: "About"
+    files:
+      - label: "Company Info"
+        name: "info"
+        file: "src/data/about.json"
+        fields:
+          - { label: "Company Description", name: "description", widget: "text" }
+          - { label: "Mission", name: "mission", widget: "text" }
+          - { label: "Team", name: "team", widget: "list", fields: [
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Role", name: "role", widget: "string" },
+              { label: "Image", name: "image", widget: "image" },
+            ]}
+  - name: "services"
+    label: "Services"
+    files:
+      - label: "Services List"
+        name: "services"
+        file: "src/data/services.json"
+        fields:
+          - { label: "Services", name: "services", widget: "list", fields: [
+              { label: "Icon", name: "icon", widget: "image" },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "text" },
+              { label: "CTA", name: "cta", widget: "string" },
+            ]}
+  - name: "portfolio"
+    label: "Portfolio"
+    files:
+      - label: "Projects"
+        name: "projects"
+        file: "src/data/projects.json"
+        fields:
+          - { label: "Projects", name: "projects", widget: "list", fields: [
+              { label: "Image", name: "image", widget: "image" },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Description", name: "description", widget: "text" },
+              { label: "Category", name: "category", widget: "string" },
+            ]}
+  - name: "contact"
+    label: "Contact"
+    files:
+      - label: "Contact Info"
+        name: "contact"
+        file: "src/data/contact.json"
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "WhatsApp", name: "whatsapp", widget: "string" }
+          - { label: "Call", name: "call", widget: "string" }
